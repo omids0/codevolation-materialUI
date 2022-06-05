@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import MuiDataDisplay from './components/MuiDataDisplay';
+import MuiResponsive from './components/MuiResponsive';
+// import MuiNavigation from './components/MuiNavigation';
+// import MuiNavigationOuter from './components/MuiNavigationOuter';
+// import MuiGride from './components/MuiGride';
+// import MuiSURFACES from './components/MuiSURFACES';
+// import MuiTypography from './components/MuiTypography';
+// import MuiButtom from './components/MuiButtom';
+// import MuiInputs from './components/MuiInputs';
+
+//SIZE:
+//  xs:100, #0
+//  sm:200, #600
+//  md:300, #900
+//  lg:400, #1200
+//  xl:500, #1536
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<MuiTypography />*/}
+      {/*<MuiButtom />*/}
+      {/*<MuiInputs />*/}
+      {/*<MuiGride />*/}
+      {/*<MuiSURFACES />*/}
+      {/*<MuiNavigation />*/}
+      {/*<MuiNavigationOuter />*/}
+      {/*<MuiDataDisplay />*/}
+      <MuiResponsive />
     </div>
   );
 }
